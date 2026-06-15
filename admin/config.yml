@@ -1,1 +1,49 @@
+backend:
+  name: github
+  repo: KELFGLOBAL/joinkelf
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "home"
+    label: "Home Section"
+    file: "content/home.yml"
+    fields:
+      - { label: "Hero Title", name: "hero_title", widget: "string" }
+      - { label: "Hero Subtitle", name: "hero_subtitle", widget: "text" }
+      - { label: "Hero Image", name: "hero_image", widget: "image", required: false }
+
+  - name: "about"
+    label: "About Section"
+    file: "content/about.yml"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+
+  - name: "benefits"
+    label: "Benefits Section"
+    file: "content/benefits.yml"
+    fields:
+      - { label: "Benefit 1 Title", name: "b1_title", widget: "string" }
+      - { label: "Benefit 1 Body", name: "b1_body", widget: "text" }
+      - { label: "Benefit 1 Image", name: "b1_image", widget: "image", required: false }
+
+      - { label: "Benefit 2 Title", name: "b2_title", widget: "string" }
+      - { label: "Benefit 2 Body", name: "b2_body", widget: "text" }
+      - { label: "Benefit 2 Image", name: "b2_image", widget: "image", required: false }
+
+      - { label: "Benefit 3 Title", name: "b3_title", widget: "string" }
+      - { label: "Benefit 3 Body", name: "b3_body", widget: "text" }
+      - { label: "Benefit 3 Image", name: "b3_image", widget: "image", required: false }
+
+  - name: "join"
+    label: "Join Section"
+    file: "content/join.yml"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Form Note", name: "note", widget: "string" }
 
