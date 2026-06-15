@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 3rem 0;
+}
+
+.hero {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: white;
+  text-align: center;
+  padding: 6rem 0;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  max-width: 700px;
+  margin: auto;
+}
+
+.hero img {
+  margin-top: 2rem;
+  max-width: 350px;
+  border-radius: 12px;
+}
+
+.about h2,
+.join h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about img {
+  max-width: 400px;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+}
+
+.benefits {
+  background: #e2e8f0;
+}
+
+.benefit {
+  margin-bottom: 2.5rem;
+}
+
+.benefit h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.benefit img {
+  max-width: 300px;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.join-form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+}
+
+.join-form input {
+  padding: 0.8rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.join-form button {
+  padding: 0.9rem;
+  background: #1e293b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.join-form button:hover {
+  background: #0f172a;
+}
